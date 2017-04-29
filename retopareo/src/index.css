@@ -1,5 +1,260 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+p, h2, h3 {
+  text-align: left;
+}
+
+.message {
+  height: 2rem;
+  line-height: 0;
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.navbar {
+  border: none;
+}
+
+.navbar-brand {
+  background: url('./img/s4fw.png') no-repeat;
+  background-size: cover;
+  height: 20px;
+  margin-top: 9px;
+  transform: scale(1);
+  width: 116px;
+}
+
+
+.navbar-default {
+  background-color: rgba(0,0,0,.4);
+  color: #fff;
+  font-family: 'Yanone Kaffeesatz';
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+.navbar-scrolled {
+  background-color: rgba(0,0,0, 1);
+}
+
+.navbar-nav::before {
+  content: '';
+  opacity: .2;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #b1b1b1;
+}
+
+.navbar-brand img{
+  height: 20px;
+}
+
+.banner {
+    background: url('./img/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    color: #fff;
+    min-height: 400px;
+}
+
+.bannerp {
+  background: url('./img/bannerp.png') no-repeat;
+  height: 175px;
+  width: 400px;
+  margin: 50px auto 0 auto;
+}
+
+.banner-container {
+    padding-top: 12rem;
+}
+
+.banner-container h1 {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+
+.banner-container h2 {
+  text-transform: uppercase;
+}
+
+.banner-container .subtitle {
+    margin-top: 4rem;
+}
+
+.banner-container .banner-logo img {
+  width: 100px;
+}
+
+.banner-logo {
+  margin-top: 4rem;
+}
+
+.banner-logo span {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.banner-logo .navbar-brand {
+  float: none;
+  margin: 0 auto;
+  position: relative;
+  width: 118px;
+}
+
+.panel {
+  padding: 2rem;
+}
+
+.block h2, .block h3  {
+  font-family: 'Yanone Kaffeesatz';
+  text-transform: uppercase;
+}
+
+.adapt-container {
+  margin-top: 2rem;
+}
+
+.meal-example {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.meal-example tr th {
+  padding: 5px;
+  width: 20%;
+}
+
+.meal-example-header {
+  background-color: #333;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.panel-exercises:first-child {
+  border-top: 1px #333 solid;
+  margin: 0;
+}
+
+.panel-exercises h3 {
+  color: #00aeef;
+  font-size: 1.2em;
+}
+
+.panel-exercises-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.panel-item {
+    align-self: center;
+}
+
+.panel-exercises-block {
+  border-bottom: 1px #333 solid;
+  margin-bottom: 1rem;
+  padding: .5rem 0;
+}
+
+.panel-exercises-block .note {
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.panel-exercises-block .note:before {
+  content: '* ';
+}
+
+.panel-exercises-block-number {
+  text-align: center;
+  width: 20%;
+}
+
+.panel-exercises-block-number div {
+    background-color: #ff4300;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    height: 30px;
+    line-height: 3rem;
+    margin: 0 auto;
+    width: 30px;
+
+}
+
+.panel-exercises-block-exercise {
+  width: 80%;
+}
+
+.workout-container .panel-body {
+  background-color: #F1F0EE;
+}
+
+.navbar-social {
+  margin: 0 auto;
+  width: 196px;
+
+}
+
+.social {
+  bottom: 15px;
+  position: relative;
+}
+
+.navbar-social li {
+  list-style: none;
+  margin-left: 20px;
+  float: left;
+}
+
+.navbar-social li a:hover {
+  transform: scale(1.2);
+}
+
+.facebook, .instagram, .youtube {
+  display: block;
+  height: 32px;
+  width: 32px;
+  text-indent: -1000px;
+  transition: all .2s;
+}
+
+.facebook {
+  background: url('./img/facebook.png') no-repeat;
+  background-size: contain;
+}
+
+.instagram {
+  background: url('./img/instagram.png') no-repeat;
+  background-size: contain;
+}
+
+.youtube {
+  background: url('./img/youtube.png') no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-top: 8px;
+    transform: scale(.8);
+  }
 }
