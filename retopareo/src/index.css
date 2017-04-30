@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 ul, ol {
@@ -123,7 +123,6 @@ p, h2, h3 {
 }
 
 .block h2, .block h3  {
-  font-family: 'Yanone Kaffeesatz';
   text-transform: uppercase;
 }
 
@@ -143,7 +142,6 @@ p, h2, h3 {
 
 .meal-example-header {
   background-color: #333;
-  font-family: 'Roboto';
   color: #fff;
 }
 
@@ -208,10 +206,48 @@ p, h2, h3 {
   background-color: #F1F0EE;
 }
 
+.exercise {
+  
+}
+
+.exercise img {
+  width: 100%;
+}
+
+.exercise-title {
+  background-color: #E84C3D;
+  color: #FFF;
+  padding: 10px;
+}
+
+.exercise-subtitle {
+  background-color: #34495E;
+  color: #FFF;
+  padding: 5px;
+}
+
+.exercise-subtitle p {
+  margin: 0;
+  padding: 0;
+}
+
+.excontainer .intro {
+  background-color: #96A4A5;
+  color: #FFF;
+  padding: 10px;
+}
+
+.excontainer .intro h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.app-footer {
+  padding: 20px 0;
+}
+
 .navbar-social {
   margin: 0 auto;
   width: 196px;
-
 }
 
 .social {
@@ -233,7 +269,7 @@ p, h2, h3 {
   display: block;
   height: 32px;
   width: 32px;
-  text-indent: -1000px;
+  text-indent: -10000px;
   transition: all .2s;
 }
 

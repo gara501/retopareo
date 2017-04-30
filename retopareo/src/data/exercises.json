@@ -1,0 +1,42 @@
+[
+  {
+    "exercises": [
+      {
+        "title": "Pushups",
+        "subtitle": "Realizar 10 repeticiones",
+        "image": "/images/plank2.png"
+      },
+      {
+        "title": "Sentadillas",
+        "subtitle": "Realizar 15 repeticiones",
+        "image": "/images/plank2.png"
+      },
+      {
+        "title": "Planchas Frontales",
+        "subtitle": "Mantener x 30 segundos",
+        "image": "/images/plank2.png"
+      }
+    ],
+    "_id": "1"
+  },
+  {
+    "exercises": [
+      {
+        "title": "Pushups",
+        "subtitle": "Realizar 10 repeticiones",
+        "image": ""
+      },
+      {
+        "title": "Sentadillas",
+        "subtitle": "Realizar 15 repeticiones",
+        "image": ""
+      },
+      {
+        "title": "Planchas Frontales",
+        "subtitle": "Mantener x 30 segundos",
+        "image": ""
+      }
+    ],
+    "_id": "2"
+  }
+]
