@@ -42,7 +42,12 @@ class Adapt extends Component {
                   </div>
                 </div>
                 <div className="workout-container">
-                  <Excontainer data={this.state.phase1.exercises}></Excontainer>
+                  <Excontainer title={this.state.phase1.title} info={this.state.phase1.info} data={this.state.phase1.exercises}></Excontainer>
+                </div>
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/N_Gh_Zz8cMI" frameborder="0" allowfullscreen></iframe>
+
+                <div className="workout-container">
+                  <Excontainer title={this.state.phase1.title} info={this.state.phase1.info} data={this.state.phase2.exercises}></Excontainer>
                 </div>
                 <iframe width="100%" height="400" src="https://www.youtube.com/embed/N_Gh_Zz8cMI" frameborder="0" allowfullscreen></iframe>
             </div>

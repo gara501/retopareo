@@ -1,40 +1,144 @@
 [
   {
+    "title": "Reto Pareo Fase 1",
+    "info": "Realizar esta rutina Lunes y Jueves, Semana 1 y 2: 2 circuitos, Semana 3 y 4: 3 a 4 circuitos",
     "exercises": [
       {
-        "title": "Pushups",
-        "subtitle": "Realizar 10 repeticiones",
-        "image": "/images/plank2.png"
-      },
-      {
-        "title": "Sentadillas",
+        "title": "Sentadilla",
         "subtitle": "Realizar 15 repeticiones",
-        "image": "/images/plank2.png"
+        "image": "/images/fase1-1.jpg"
       },
       {
-        "title": "Planchas Frontales",
+        "title": "Tijeras bajas",
+        "subtitle": "Realizar 15 repeticiones x pierna",
+        "image": "/images/fase1-2.jpg"
+      },
+      {
+        "title": "Sentadilla Isometrica",
         "subtitle": "Mantener x 30 segundos",
-        "image": "/images/plank2.png"
+        "image": "/images/fase1-1.jpg"
+      },
+      {
+        "title": "Plancha Frontal",
+        "subtitle": "Mantener x 30 segundos",
+        "image": "/images/fase1-4.jpg"
+      },
+      {
+        "title": "Descanso",
+        "subtitle": "Descansar x 30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Sentadilla Sumo",
+        "subtitle": "Realizar 15 repeticiones",
+        "image": "/images/fase1-1.jpg"
+      },
+      {
+        "title": "Patada de glúteo",
+        "subtitle": "Realizar 15 repeticiones x pierna",
+        "image": "/images/fase1-6.jpg"
+      },
+      {
+        "title": "Puente de glúteo a una pierna",
+        "subtitle": "Realizar 10 repeticiones x pierna",
+        "image": "/images/fase1-7.jpg"
+      },
+      {
+        "title": "Plancha y toque de hombro",
+        "subtitle": "Realizar 10 toques x cada lado",
+        "image": "/images/fase1-8.jpg"
+      },
+      {
+        "title": "Descanso",
+        "subtitle": "Descansar x 30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Pushups",
+        "subtitle": "Realizar 10 repeticiones, usar la regresión de ser necesario",
+        "image": "/images/fase1-9.jpg"
+      },
+      {
+        "title": "Contracción de espalda",
+        "subtitle": "Realizar 10 repeticiones",
+        "image": "/images/fase1-10.jpg"
+      },
+      {
+        "title": "Plancha lateral",
+        "subtitle": "Mantener x 20 segundos x cada lado",
+        "image": "/images/fase1-11.jpg"
       }
     ],
     "_id": "1"
   },
   {
+    "title": "Reto Pareo Fase 1",
+    "info": "Realizar esta rutina Martes y Viernes, Semana 1 y 2: 2 circuitos, Semana 3 y 4: 3 a 4 circuitos",
     "exercises": [
+     {
+        "title": "Sentadilla",
+        "subtitle": "Realizar 15 repeticiones",
+        "image": "/images/fase1-1.jpg"
+      },
+      {
+        "title": "Tijeras bajas",
+        "subtitle": "Realizar 15 repeticiones x pierna",
+        "image": "/images/fase1-2.jpg"
+      },
+      {
+        "title": "Sentadilla Isometrica",
+        "subtitle": "Mantener x 30 segundos",
+        "image": "/images/fase1-1.jpg"
+      },
+      {
+        "title": "Plancha Frontal",
+        "subtitle": "Mantener x 30 segundos",
+        "image": "/images/fase1-4.jpg"
+      },
+      {
+        "title": "Descanso",
+        "subtitle": "Descansar x 30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Sentadilla Sumo",
+        "subtitle": "Realizar 15 repeticiones",
+        "image": "/images/fase1-1.jpg"
+      },
+      {
+        "title": "Patada de glúteo",
+        "subtitle": "Realizar 15 repeticiones x pierna",
+        "image": "/images/fase1-6.jpg"
+      },
+      {
+        "title": "Puente de glúteo a una pierna",
+        "subtitle": "Realizar 10 repeticiones x pierna",
+        "image": "/images/fase1-7.jpg"
+      },
+      {
+        "title": "Plancha y toque de hombro",
+        "subtitle": "Realizar 10 toques x cada lado",
+        "image": "/images/fase1-8.jpg"
+      },
+      {
+        "title": "Descanso",
+        "subtitle": "Descansar x 30 segundos",
+        "image": ""
+      },
       {
         "title": "Pushups",
+        "subtitle": "Realizar 10 repeticiones, usar la regresión de ser necesario",
+        "image": "/images/fase1-9.jpg"
+      },
+      {
+        "title": "Contracción de espalda",
         "subtitle": "Realizar 10 repeticiones",
-        "image": ""
+        "image": "/images/fase1-10.jpg"
       },
       {
-        "title": "Sentadillas",
-        "subtitle": "Realizar 15 repeticiones",
-        "image": ""
-      },
-      {
-        "title": "Planchas Frontales",
-        "subtitle": "Mantener x 30 segundos",
-        "image": ""
+        "title": "Plancha lateral",
+        "subtitle": "Mantener x 20 segundos x cada lado",
+        "image": "/images/fase1-11.jpg"
       }
     ],
     "_id": "2"

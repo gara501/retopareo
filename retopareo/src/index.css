@@ -37,7 +37,6 @@ p, h2, h3 {
 .navbar-default {
   background-color: rgba(0,0,0,.4);
   color: #fff;
-  font-family: 'Yanone Kaffeesatz';
   letter-spacing: 1px;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -62,6 +61,11 @@ p, h2, h3 {
 
 .navbar-brand img{
   height: 20px;
+}
+
+.shred .alim {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .banner {
@@ -207,11 +211,27 @@ p, h2, h3 {
 }
 
 .exercise {
-  
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.exercise .info {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 70%;
+}
+
+.exercise .info.rest {
+  width: 100%;
+}
+
+.exercise .info.rest .exercise-title {
+  background-color: #1BBC9B;
 }
 
 .exercise img {
-  width: 100%;
+  height: 100%;
+  width: 30%;
 }
 
 .exercise-title {
