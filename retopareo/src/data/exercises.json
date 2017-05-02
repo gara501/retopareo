@@ -72,53 +72,28 @@
     "_id": "1"
   },
   {
-    "title": "Reto Pareo Fase 1",
+    "title": "Reto Pareo Fase 1 - Rutina 2",
     "info": "Realizar esta rutina Martes y Viernes, Semana 1 y 2: 2 circuitos, Semana 3 y 4: 3 a 4 circuitos",
     "exercises": [
      {
-        "title": "Sentadilla",
-        "subtitle": "Realizar 15 repeticiones",
-        "image": "/images/fase1-1.jpg"
-      },
-      {
-        "title": "Tijeras bajas",
-        "subtitle": "Realizar 15 repeticiones x pierna",
-        "image": "/images/fase1-2.jpg"
-      },
-      {
-        "title": "Sentadilla Isometrica",
-        "subtitle": "Mantener x 30 segundos",
-        "image": "/images/fase1-1.jpg"
-      },
-      {
-        "title": "Plancha Frontal",
-        "subtitle": "Mantener x 30 segundos",
-        "image": "/images/fase1-4.jpg"
-      },
-      {
-        "title": "Descanso",
-        "subtitle": "Descansar x 30 segundos",
-        "image": ""
-      },
-      {
-        "title": "Sentadilla Sumo",
-        "subtitle": "Realizar 15 repeticiones",
-        "image": "/images/fase1-1.jpg"
-      },
-      {
-        "title": "Patada de glúteo",
-        "subtitle": "Realizar 15 repeticiones x pierna",
-        "image": "/images/fase1-6.jpg"
-      },
-      {
-        "title": "Puente de glúteo a una pierna",
+        "title": "Step Up",
         "subtitle": "Realizar 10 repeticiones x pierna",
-        "image": "/images/fase1-7.jpg"
+        "image": "/images/fase1-1.jpg"
       },
       {
-        "title": "Plancha y toque de hombro",
-        "subtitle": "Realizar 10 toques x cada lado",
-        "image": "/images/fase1-8.jpg"
+        "title": "Sentadilla saltando",
+        "subtitle": "Realizar 10 repeticiones",
+        "image": "/images/fase1-1.jpg"
+      },
+      {
+        "title": "Sentadilla y rodillazo",
+        "subtitle": "Realizar 10 repeticiones",
+        "image": "/images/fase1-12.jpg"
+      },
+      {
+        "title": "Plancha y toque de pierna",
+        "subtitle": "Realizar 20 repeticiones",
+        "image": "/images/fase1-13.jpg"
       },
       {
         "title": "Descanso",
@@ -126,14 +101,39 @@
         "image": ""
       },
       {
-        "title": "Pushups",
-        "subtitle": "Realizar 10 repeticiones, usar la regresión de ser necesario",
-        "image": "/images/fase1-9.jpg"
+        "title": "Burpees",
+        "subtitle": "Realizar 10 repeticiones",
+        "image": "/images/fase1-14.jpg"
       },
       {
-        "title": "Contracción de espalda",
+        "title": "Caminata en sentadilla",
+        "subtitle": "Realizar 15 repeticiones",
+        "image": "/images/fase1-15.jpg"
+      },
+      {
+        "title": "Gusanos",
+        "subtitle": "Realizar 5 repeticiones",
+        "image": "/images/fase1-16.jpg"
+      },
+      {
+        "title": "Plancha y giro",
         "subtitle": "Realizar 10 repeticiones",
-        "image": "/images/fase1-10.jpg"
+        "image": "/images/fase1-17.jpg"
+      },
+      {
+        "title": "Descanso",
+        "subtitle": "Descansar x 30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Hip Thrust forma 4",
+        "subtitle": "Realizar 15 repeticiones x pierna, usar la regresión de ser necesario",
+        "image": "/images/fase1-18.jpg"
+      },
+      {
+        "title": "Superman",
+        "subtitle": "Realizar 20 repeticiones",
+        "image": "/images/fase1-20.jpg"
       },
       {
         "title": "Plancha lateral",
@@ -142,5 +142,62 @@
       }
     ],
     "_id": "2"
+  },
+  {
+    "title": "Reto Pareo Fase 1 - Rutina 3 - Cardio Core",
+    "info": "Realizar esta rutina Miercoles y Sabado, Realizar de 3 a 5 circuitos descansando 1 minuto entre circuitos",
+    "exercises": [
+     {
+        "title": "Jumping Jacks",
+        "subtitle": "1 Minuto",
+        "image": ""
+      },
+      {
+        "title": "Skipping",
+        "subtitle": "30 Segundos",
+        "image": ""
+      },
+      {
+        "title": "Plancha frontal",
+        "subtitle": "Mantener x 30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Sentadilla y patada",
+        "subtitle": "30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Skaters",
+        "subtitle": "30 Segundos",
+        "image": ""
+      },
+      {
+        "title": "Jumping Jacks",
+        "subtitle": "1 minuto",
+        "image": ""
+      },
+      {
+        "title": "Escaladores",
+        "subtitle": "30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Crunch invertido",
+        "subtitle": "30 segundos",
+        "image": ""
+      },
+      {
+        "title": "Tijera en reversa",
+        "subtitle": "1 minuto",
+        "image": ""
+      },
+      {
+        "title": "Bird Dogs",
+        "subtitle": "1 minuto",
+        "image": ""
+      }
+    ],
+    "_id": "3"
   }
 ]

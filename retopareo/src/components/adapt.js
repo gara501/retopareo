@@ -7,11 +7,46 @@ import exercisesJson from '../data/exercises.json';
 class Adapt extends Component {
   constructor(props) {
     super(props);
-    this.state = {phase1: exercisesJson[0], phase2:exercisesJson[1]};
-    console.log('Adapt exercises', this.state.phase1);
-    console.log('Adapt exercises 2', this.state.phase2);
+    this.state = {phase1: exercisesJson[0], phase2:exercisesJson[1], phase3:exercisesJson[2]};
+    this.handleClick = this.handleClick.bind(this);
   }
-  render() {
+
+  handleClick(e) {
+    e.preventDefault();
+    let element = e.target.classList;
+    element.forEach(function(name) {
+      this.activate(name);
+    }, this);    
+  }
+
+  activate(element) {
+    if (element === 'btn1') {
+      document.querySelector('.phase1').classList.remove('hidden');
+      document.querySelector('.phase2').classList.remove('hidden');
+      document.querySelector('.phase3').classList.remove('hidden');
+      
+      document.querySelector('.phase2').classList.add('hidden');
+      document.querySelector('.phase3').classList.add('hidden');
+    }
+    if (element === 'btn2') {
+       document.querySelector('.phase1').classList.remove('hidden');
+      document.querySelector('.phase2').classList.remove('hidden');
+      document.querySelector('.phase3').classList.remove('hidden');
+      
+      document.querySelector('.phase1').classList.add('hidden');
+      document.querySelector('.phase3').classList.add('hidden');
+    }
+    if (element === 'btn3') {
+       document.querySelector('.phase1').classList.remove('hidden');
+      document.querySelector('.phase2').classList.remove('hidden');
+      document.querySelector('.phase3').classList.remove('hidden');
+      
+      document.querySelector('.phase1').classList.add('hidden');
+      document.querySelector('.phase2').classList.add('hidden');
+    }
+  }
+  
+  render() {  
     return (
       <div className='adapt'>
         <Top intro="false" />
@@ -22,8 +57,8 @@ class Adapt extends Component {
                 <h2>Entrenamiento</h2>
                 <p>En nuestras primeras 4 semanas, nos enfocaremos en potenciar nuestra resistencia, en especial en la zona
                   de piernas, gluteos y core, el entrenamiento será un entrenamiento de circuitos, manejando descansos muy cortos y alta intensidad.
-                  Debes tener muy en cuenta la técnica de cada ejercicio, si puedes tener un espejo a la mano cuando realices los ejercicios te puede ayudar
-                  a ver y corregir tu postura, en todo caso, guiate de los videos y las imagenes que añadimos.
+                  Debes tener muy en cuenta la técnica de cada ejercicio, si puede tener un espejo a la mano cuando realice los ejercicios, le puede ayudar
+                  a ver y corregir su postura, guiese de los videos y las imagenes que añadimos.
                 </p>
                 <div className="panel panel-default">
                   <div className="panel-heading">
@@ -33,23 +68,32 @@ class Adapt extends Component {
                     <ul className="list-group">
                       <li className="list-group-item list-group-item-success">Entrenamiento basado en circuitos</li>
                       <li className="list-group-item list-group-item-info">La frecuencia será de 4 días x semana</li>
-                      <li className="list-group-item list-group-item-danger">Trata de realizar las series, repeticiones y tiempos que establecemos
-                        en el programa, si no puedes, baja tu nivel hasta que logres realizarlo, sea haciendo menos repeticiones o realizando ejercicios
-                        mas simples (los cuales añadimos como ejercicios de regresión).
-                        Los ejercicios de progresión se recomiendan en caso de que tengas un nivel avanzado y quieras retarte más.
+                      <li className="list-group-item list-group-item-danger">Trate de realizar las series, repeticiones y tiempos que establecemos
+                        en el programa, si tiene problemas con la dificultad de algún ejercicio, procure hacer una versión mas simple del mismo
+                        (esto se llama regresión), añadimos algunos ejemplos en los videos.
+                        Así mismo, si un ejercicio le parece muy fácil, puede realizar una versión mas difícil del mismo (esto se llama progresión).
+                        Los ejercicios de progresión se recomiendan en caso de que tenga un nivel mas avanzado. 
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div className="workout-container">
+                <div className="workouts-buttons">
+                  <a className="btn btn-primary btn1"  onClick={this.handleClick} href="#">Workout Lunes y Jueves</a>
+                  <a className="btn btn-info btn2" onClick={this.handleClick} href="#">Workout Martes y Viernes</a>
+                  <a className="btn btn-success btn3" onClick={this.handleClick} href="#">Workout Miercoles y Sábado</a>
+                </div>
+                <div className="workout-container phase1">
                   <Excontainer title={this.state.phase1.title} info={this.state.phase1.info} data={this.state.phase1.exercises}></Excontainer>
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/_HDE0n1f5TQ" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/N_Gh_Zz8cMI" frameborder="0" allowfullscreen></iframe>
-
-                <div className="workout-container">
-                  <Excontainer title={this.state.phase1.title} info={this.state.phase1.info} data={this.state.phase2.exercises}></Excontainer>
+                <div className="workout-container phase2 hidden">
+                  <Excontainer title={this.state.phase2.title} info={this.state.phase2.info} data={this.state.phase2.exercises}></Excontainer>
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/G6b_yLd5xi4" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <iframe width="100%" height="400" src="https://www.youtube.com/embed/N_Gh_Zz8cMI" frameborder="0" allowfullscreen></iframe>
+                <div className="workout-container phase3 hidden">
+                  <Excontainer title={this.state.phase3.title} info={this.state.phase3.info} data={this.state.phase3.exercises}></Excontainer>
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/Ix9rzsHYKfw" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
           </div>
         </div>

@@ -68,9 +68,13 @@ p, h2, h3 {
   margin-bottom: 30px;
 }
 
+.shred .alim img {
+  width: 100%;
+}
+
 .banner {
-    background: url('./img/banner.jpg') no-repeat;
-    background-size: cover;
+    background: url('./img/fondo.jpg') no-repeat;
+    background-size: 100%;
     background-position-y: 30%;
     color: #fff;
     min-height: 400px;
@@ -81,6 +85,20 @@ p, h2, h3 {
   height: 175px;
   width: 400px;
   margin: 50px auto 0 auto;
+}
+
+@media (max-width: 990px) {
+  .banner {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .bannerp {
+    background: url('./img/bannerpm.png') no-repeat;
+    height: 100px;
+    width: 240px;
+  }
 }
 
 .banner-container {
@@ -259,6 +277,38 @@ p, h2, h3 {
 
 .excontainer .intro h2 {
   font-family: 'Anton', sans-serif;
+}
+
+.excontainer .intro p {
+  font-size: 2rem;
+}
+
+.workouts-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px 0;
+}
+
+.workouts-buttons a:first-of-type {
+  margin-left: 0;
+}
+
+.workouts-buttons a {
+  margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .workouts-buttons a {
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+
+.workouts-buttons a.selected {
+  background: #b1b1b1;
+  color: #fff;
 }
 
 .app-footer {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Banner from './banner';
 import Intro from './intro';
-import Warcold from './warcold';
 import Nav from './nav';
 
 class Top extends Component {

@@ -32,7 +32,7 @@ class Nav extends Component {
           <ul className="nav navbar-nav navbar-right">
             <li><a href="#workout">Workout</a></li>
             <li><a href="#alim">Alimentación</a></li>
-            <li><a href="http://laduranb.blogspot.com/" target="_blank">Blog de Angelica Durán</a></li>
+            <li><a href="http://laduranb.blogspot.com/" target="_blank">Blog de @angelicaduranb</a></li>
             <li><a href="http://reto90.soul4fit.net" target="_blank">Reto 90</a></li>
           </ul>
         </div>
