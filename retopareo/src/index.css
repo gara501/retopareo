@@ -74,8 +74,7 @@ p, h2, h3 {
 
 .banner {
     background: url('./img/fondo.jpg') no-repeat;
-    background-size: 100%;
-    background-position-y: 30%;
+    background-size: cover;
     color: #fff;
     min-height: 400px;
 }
@@ -85,12 +84,6 @@ p, h2, h3 {
   height: 175px;
   width: 400px;
   margin: 50px auto 0 auto;
-}
-
-@media (max-width: 990px) {
-  .banner {
-    background-size: cover;
-  }
 }
 
 @media (max-width: 600px) {
